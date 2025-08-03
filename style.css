@@ -1,0 +1,560 @@
+/* 
+
+
+
+
+
+Global Styles
+
+
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #38b6ff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1250px;
+  margin: auto;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 18px;
+  color: #333333;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.bold-txt {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+.yt-link {
+  color: black;
+  font-weight: bold;
+}
+
+/* 
+
+
+
+
+
+Header 
+
+
+
+
+*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .5rem;
+}
+
+.logo {
+  width: 50px;
+}
+
+.header-text {
+  font-weight: bold;
+
+}
+
+/* 
+
+
+
+
+
+Showcase 
+
+
+
+
+*/
+
+.showcase {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3rem;
+  height: 100vh;
+
+}
+
+.cta-content {
+  width: 50%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.cta-sub-text {
+  padding-top: 1rem;
+  width: 60%;
+  font-size: 21px;
+
+}
+
+.cta-link {
+  background-color: #38b6ff;
+  color: white;
+  display: block;
+  margin: 1rem 0rem;
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+}
+
+.showcase-image {
+  width: 50%;
+}
+
+.showcase-image img {
+  width: 600px;
+}
+
+/* 
+
+
+
+
+
+YT Video
+
+
+
+
+*/
+
+.yt-video {
+  margin-top: 0rem;
+  text-align: center;
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100% !important;
+}
+
+/* 
+
+
+
+
+
+Features and Benefits
+
+
+
+*/
+
+.features-benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-top: 8rem;
+}
+
+.fb-card {
+  text-align: center;
+}
+
+.fb-p {
+  width: 65%;
+  margin: 1rem auto;
+}
+
+/* 
+
+
+
+
+
+Flex Container
+
+
+
+*/
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  column-gap: 5rem;
+}
+
+.img-container img {
+  width: 500px;
+}
+
+h2 {
+  font-size: 38px;
+  padding-bottom: 1rem;
+}
+
+.sub-text {
+  font-size: 18px;
+}
+
+/* 
+
+
+
+
+
+Pricing Cards
+
+
+
+
+*/
+
+.pricing-cards {
+  margin-top: 8rem;
+}
+
+.pricing-cards-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pricing-cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.price-card {
+  background-color: #f7fafc;
+  padding: 2rem;
+  height: 670px;
+  position: relative;
+}
+
+.package-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.package-header {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.badge {
+  background-color: #38b6ff;
+  color: white;
+  font-weight: bold;
+  padding: .7rem;
+}
+
+.package-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.price-p {
+  padding-left: 1rem;
+  margin: 12px 0px;
+  color: black;
+}
+
+.price-card-cta-link {
+  background-color: #38b6ff;
+  color: white;
+  display: block;
+  margin: 2rem auto 0rem auto;
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+}
+
+/* 
+
+
+
+
+
+Footer
+
+
+
+
+*/
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 4rem;
+  padding: 2rem 0rem;
+}
+
+/* 
+
+
+
+
+
+Media Queries
+
+
+
+
+*/
+
+@media (max-width: 1200px) {
+  .showcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+    height: auto;
+  }
+
+  .cta-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .cta-sub-text {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .cta-link {
+    margin: 1rem auto;
+
+  }
+
+  .showcase-image {
+    width: 100%;
+    text-align: center;
+    margin: 3rem auto;
+
+  }
+
+  .showcase-image img {
+    width: 100%;
+
+  }
+
+  .yt-video {
+    margin-top: 6rem;
+    text-align: center;
+  }
+
+  .video {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+  }
+
+  .features-benefits {
+    margin-top: 6rem;
+  }
+
+  .fb-card {
+    text-align: center;
+  }
+
+  .fb-p {
+    width: 100%;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    row-gap: 2rem;
+    column-gap: 0rem;
+  }
+
+  .order {
+    order: 1;
+  }
+
+  .img-container img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 38px;
+    padding-bottom: 1rem;
+  }
+
+  .sub-text {
+    font-size: 18px;
+  }
+
+  .pricing-cards {
+    margin-top: 6rem;
+  }
+
+  .pricing-cards-container {
+    flex-direction: column;
+    column-gap: 0rem;
+    row-gap: 2rem;
+  }
+
+
+  .package-header {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+
+  .package-list-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .price-p {
+    padding-left: 1rem;
+    margin: 12px 0px;
+    color: black;
+  }
+
+  .price-card-cta-link {
+    background-color: #38b6ff;
+    color: white;
+    display: block;
+    margin: 2rem auto 0rem auto;
+    width: 140px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .showcase {
+    padding-top: 2rem;
+  }
+
+  .cta-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .cta-sub-text {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .cta-link {
+    margin: 1rem auto;
+
+  }
+
+  .showcase-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .showcase-image img {
+    width: 100%;
+
+  }
+
+  .yt-video {
+    margin-top: 3rem;
+  }
+
+  .video {
+    margin-top: 2rem;
+  }
+
+  .features-benefits {
+    flex-direction: column;
+    column-gap: 0rem;
+    row-gap: 3rem;
+    margin-top: 5rem;
+  }
+
+
+  .fb-p {
+    width: 100%;
+  }
+
+  .flex-container {
+    margin-top: 3rem;
+  }
+
+  .price-card {
+    height: 100%;
+  }
+
+  .package-header-container {
+    flex-direction: column;
+    column-gap: 0rem;
+    margin: 1rem 0rem;
+  }
+
+  .price-card-cta-link {
+    position: static;
+  }
+}
+
+@media (max-width: 350px) {
+  .header-text {
+    font-size: 14px;
+
+  }
+}
