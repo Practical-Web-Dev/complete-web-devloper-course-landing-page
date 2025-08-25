@@ -254,7 +254,8 @@ Pricing Cards
 .price-card {
   background-color: #f7fafc;
   padding: 2rem;
-  height: 720px;
+  height: 740px;
+  width: 100%;
   position: relative;
 }
 
