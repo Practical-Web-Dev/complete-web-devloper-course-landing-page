@@ -150,6 +150,10 @@ YT Video
 
 */
 
+.yt-h2 {
+  margin-bottom: 1rem;
+}
+
 .yt-video {
   margin-top: 0rem;
   text-align: center;
@@ -157,7 +161,7 @@ YT Video
 
 .video {
   aspect-ratio: 16 / 9;
-  width: 100% !important;
+  max-width: 800px;
 }
 
 /* 
@@ -391,7 +395,7 @@ Media Queries
 
   .video {
     aspect-ratio: 16 / 9;
-    width: 100% !important;
+    max-width: 90%;
   }
 
   .features-benefits {
