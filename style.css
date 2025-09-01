@@ -395,7 +395,7 @@ Media Queries
 
   .video {
     aspect-ratio: 16 / 9;
-    max-width: 90%;
+    width: 100% !important;
   }
 
   .features-benefits {
@@ -523,6 +523,7 @@ Media Queries
   }
 
   .video {
+    max-width: 95%;
     margin-top: 2rem;
   }
 
