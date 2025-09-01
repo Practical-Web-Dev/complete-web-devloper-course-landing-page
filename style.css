@@ -27,7 +27,7 @@ body {
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 18px;
   color: #333333;
 
@@ -224,6 +224,7 @@ Flex Container
 h2 {
   font-size: 38px;
   padding-bottom: 1rem;
+  color: #333333;
 }
 
 .sub-text {
