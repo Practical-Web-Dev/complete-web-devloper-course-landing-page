@@ -18,6 +18,7 @@ Global Styles
 body {
   font-family: "Roboto", sans-serif;
   color: #38b6ff;
+  background-color: #f4f4f4;
 }
 
 .container {
@@ -229,6 +230,33 @@ h2 {
 
 .sub-text {
   font-size: 18px;
+}
+
+/* 
+
+
+
+
+
+Testimonials
+
+
+
+
+*/
+
+.testimonials {
+  margin: 8rem 0rem;
+}
+
+.testimonials h2 {
+  text-align: center;
+}
+
+.testimonial-img {
+  display: block;
+  width: 500px;
+  margin: 2rem auto;
 }
 
 /* 
@@ -546,6 +574,10 @@ Media Queries
 
   .flex-container {
     margin-top: 3rem;
+  }
+
+  .testimonial-img {
+    width: 100%;
   }
 
   .price-card {
